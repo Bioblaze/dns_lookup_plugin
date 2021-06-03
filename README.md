@@ -4,7 +4,7 @@ This will allow you to do a DNS lookup for any Domain, and will provide you with
 
 * Requires: `awk` `jq` & `dig` installed.
 * Only works on Linux
-
+* Example Project Using this Plugin @ https://github.com/Bioblaze/dns_lookup_service
 Example Output
 ```console
 user@DESKTOP:/mnt/e/Github/dns_lookup_plugin$ node test.js 
