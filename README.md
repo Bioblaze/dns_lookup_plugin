@@ -15,6 +15,21 @@ user@DESKTOP:/mnt/e/Github/dns_lookup_plugin$ node test.js
     IpAddress: '"heritage=external-dns,external-dns/owner=test,external-dns/resource=service/default/nginx"' } ]
 ```
 
+Example Usage
+```js
+var dns = require('dns_lookup_plugin');
+
+
+var domain = "divine.games";
+var type = "txt";
+
+dns.lookup(domain,type).then((data) => {
+    console.log(data);
+}).catch((err) => {
+    console.error(err);
+})
+```
+
 Install Required Applications
 * jq: `sudo apt-get install jq`
 * awk: `sudo apt-get install gawk`

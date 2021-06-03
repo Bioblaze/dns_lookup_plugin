@@ -142,4 +142,4 @@ function dns_lookup(domain, type) {
     });
 }
 
-module.exports = dns_lookup;
+module.exports.lookup = dns_lookup;

@@ -1,6 +1,6 @@
 {
   "name": "dns_lookup_plugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Node.js Plugin to Lookup DNS Records.",
   "keywords": ["dns", "lookup"],
   "main": "index.js",
